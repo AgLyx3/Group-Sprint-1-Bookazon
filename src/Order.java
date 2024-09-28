@@ -13,8 +13,9 @@ public class Order {
     private Address billingAddress;
     private ArrayList<CartItem> items;
     private double orderPrice;
+    private Subscription subscription;
 
-    public Order(Cart cart, String subscription) {
+    public Order(Cart cart, Subscription subscription) {
         this.items = cart.getItems();
         this.orderPrice = calculatePrice();
     }
