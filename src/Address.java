@@ -41,12 +41,17 @@ public class Address {
     }
 
     public void setAddress(Address newAddress){
-        this.addressLine1 = newAddress.addressLine1;
-        this.addressLine2 = newAddress.addressLine2;
-        this.addressCity = newAddress.addressCity;
-        this.addressState = newAddress.addressState;
-        this.addressZip = newAddress.addressZip;
-        this.addressCountry = newAddress.addressCountry;
+        this.addressLine1 = newAddress.getAddressLine1();
+        this.addressLine2 = newAddress.getAddressLine2();
+        this.addressCity = newAddress.getAddressCity();
+        this.addressState = newAddress.getAddressState();
+        this.addressZip = newAddress.getAddressZip();
+        this.addressCountry = newAddress.getAddressCountry();
+    }
+
+    @Override
+    public String toString(){
+        return(addressLine1 + " " + addressLine2 + " " + addressCity + " " + addressState + " " + addressZip + " " + addressCountry);
     }
 
 }

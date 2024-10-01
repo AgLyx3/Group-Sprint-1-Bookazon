@@ -25,11 +25,11 @@ public class Order {
     }
 
     public void setShippingAddress(Address newAddress) {
-        this.shippingAddress.setAddress(newAddress);
+        this.shippingAddress = newAddress;
     }
 
     public void setBillingAddress(Address newAddress) {
-        this.billingAddress.setAddress(newAddress);
+        this.billingAddress = newAddress;
 
     }
 

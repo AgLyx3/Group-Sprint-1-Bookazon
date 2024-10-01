@@ -2,7 +2,7 @@
 
 Welcome to Bookazon, where we're turning the page on traditional e-commerce!
 
- <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/Bookazon.jpg"  width=1000/>
+ <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/16-create-an-elaborate-and-creative-readmemd-priority/images/Bookazon.jpg"  width=1000/>
 
 
 ## 🌟 About Our Project
@@ -40,12 +40,12 @@ We've applied SOLID principles to create a robust, extensible architecture:
 
 ## 👥 Meet the Team
 
-| <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/Agnes.jpg" width="200" height="200" alt="Agnes"> |<img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/Cathy.jpg" width="200" height="200" alt="Cathy"> | <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/James.jpg" width="200" height="200" alt="James"> | <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/Zaynab.jpg" width="200" height="200" alt="Zaynab"> |
+| <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/16-create-an-elaborate-and-creative-readmemd-priority/images/Agnes.jpg" width="200" height="200" alt="Agnes"> |<img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/16-create-an-elaborate-and-creative-readmemd-priority/images/Cathy.jpg" width="200" height="200" alt="Cathy"> | <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/16-create-an-elaborate-and-creative-readmemd-priority/images/James.jpg" width="200" height="200" alt="James"> | <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/16-create-an-elaborate-and-creative-readmemd-priority/images/Zaynab.jpg" width="200" height="200" alt="Zaynab"> |
 |:---:|:---:|:---:|:---:|
 | Agnes | Cathy | James | Zaynab |
 
 ## 📊 Project Progress
-<img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/burndown_chart.png" alt="Burndown Chart" width="800"/>
+<img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/16-create-an-elaborate-and-creative-readmemd-priority/images/burndown_chart.png" alt="Burndown Chart" width="800"/>
 
 ## 🚀 Getting Started
 

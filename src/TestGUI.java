@@ -121,7 +121,7 @@ public class TestGUI {
         double price = Double.parseDouble(priceField.getText());
         boolean isPaperback = Boolean.parseBoolean(paperbackField.getText());
 
-        Media newBook = new Book(title, author, year, price, isPaperback);
+        Media newBook = new Book(title, author, year, price, 1, isPaperback);
         bookazon.addProduct(newBook);
 
         libraryListModel.addElement(title + " (" + year + ") - $" + price + " - IsPaperback: " + isPaperback);
@@ -147,15 +147,15 @@ public class TestGUI {
         return address;
     }
 
-    private String getCurrentDate() {
+    private LocalDate getCurrentDate() {
         LocalDate today = LocalDate.now();
-        return today.toString();
+        return today;
     }
 
     private void viewOrderDetails() {
         bookazon.getUser(0).setShippingAddress(new Address("123 Main St", "", "Springfield", "IL", "62701", "USA"));
         bookazon.getUser(0).setBillingAddress(new Address("123 Main St", "", "Springfield", "IL", "62701", "USA"));
-        bookazon.getUser(0).checkout(makeAddressFromTextFields(), makeAddressFromTextFields(), getCurrentDate());
+        bookazon.getUser(0).checkout(makeAddressFromTextFields(), makeAddressFromTextFields(), new Date(getCurrentDate().getYear(), getCurrentDate().getMonthValue(), getCurrentDate().getDayOfMonth()));
         bookazon.getUser(0).viewOrders();
     }
 

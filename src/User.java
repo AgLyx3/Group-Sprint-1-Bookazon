@@ -32,12 +32,12 @@ public class User {
         cart.viewCartDetails();
     }
 
-    public void setShippingAddress(Address newAddress) {
-        this.shippingAddress.setAddress(newAddress);
+    public void setShippingAddress(Address newAddress){
+        this.shippingAddress = newAddress;
     }
 
     public void setBillingAddress(Address newAddress) {
-        this.billingAddress.setAddress(newAddress);
+        this.billingAddress = newAddress;
     }
 
     public void addToCart(Media product, int quantity) {
@@ -69,14 +69,14 @@ public class User {
         orders.add(order);
     }
 
-    public void checkout(Address shippingAddress, Address billingAddress, String date) {
+    public void checkout(Address shippingAddress, Address billingAddress, Date date) {
         Order order = new Order(cart, this.subscription);
         order.setShippingAddress(shippingAddress);
         order.setBillingAddress(billingAddress);
         order.setOrderStatus(OrderStatus.PLACED);
         order.setDateCreated(date);
         order.setUserName(this.name);
-        order.setDateShipped("TBD");
+        order.setDateShipped(date);
         orders.add(order);
     }
 }
