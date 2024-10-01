@@ -2,6 +2,8 @@
 
 Welcome to Bookazon, where we're turning the page on traditional e-commerce!
 
+We offer the following memberships: Platinum, Gold, Silver, Normal
+
  <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/Bookazon.jpg"  width=1000/>
 
 
