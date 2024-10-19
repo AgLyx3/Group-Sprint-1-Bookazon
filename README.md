@@ -2,7 +2,9 @@
 
 Welcome to Bookazon, where we're turning the page on traditional e-commerce!
 
-We offer the following memberships: Platinum, Gold, Silver, Normal
+We offer the following memberships: Platinum, Gold, Silver, Normal.
+
+Bookazon GUI: [link](https://drive.google.com/file/d/1X5MIgm0cWhI5rkq30S1lC0gJ5Upzy98F/view)
 
  <img src="https://github.com/AgLyx3/Group-Sprint-1-Bookazon/blob/main/images/Bookazon.jpg"  width=1000/>
 
